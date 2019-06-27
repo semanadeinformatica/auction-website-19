@@ -1,9 +1,7 @@
 import React from "react";
 
-import HeaderStyle from "./header.module.css";
-
 export default () => (
-    <header className={HeaderStyle.headerWrapper}>
+    <header id="header-wrapper">
         <h1>
             Main Sponsor Auction
         </h1>
