@@ -10,7 +10,7 @@ body {
 }
 
 #header-wrapper {
-	width: 100vw;
+	width: 100%;
 	background-color: #252525;
 	color: white;
 	padding: 2em;
