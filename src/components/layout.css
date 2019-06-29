@@ -39,7 +39,7 @@ section > h2.title {
   border-bottom: 3px solid rgba(0, 0, 0, 0.9);
 }
 
-#bid-section {
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,5 +79,12 @@ section > h2.title {
 
 #bid-button > span {
   margin-left: 1.5em;
+  font-weight: bold;
+}
+
+#end-date {
+  color: rgb(82, 21, 21);
+  text-align: center;
+  font-size: 1.8em;
   font-weight: bold;
 }

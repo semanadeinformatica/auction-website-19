@@ -1,12 +1,12 @@
 import React from "react";
 
 export default () => (
-    <section id="date-section">
+    <section id="update-section">
         <h2 className="title">
-			End date
+			Last update
         </h2>
         <p id="end-date">
-            31/08/19 at 23:59
+            3/07/19 at 12:45
         </p>
     </section>
 );
