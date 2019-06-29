@@ -24,7 +24,10 @@ export default () => (
                12/7 at 12:24
             </strong>
         </p>
-        <button id="bid-button">
+        <a
+            href="mailto:externas@sinf.pt"
+            id="bid-button"
+        >
             <FontAwesomeIcon
                 size="lg"
                 icon={faGavel}
@@ -32,6 +35,6 @@ export default () => (
             <span>
                MAKE A BID
             </span>
-        </button>
+        </a>
     </section>
 );

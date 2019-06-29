@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "../components/header";
-import HighestBid from "../components/highest-bid";
+import Bid from "../components/bid";
 import Content from "../components/content";
 import Timer from "../components/Timer";
 
@@ -11,7 +11,7 @@ export default () => (
     <> 
         <Header />
         <Content>
-            <HighestBid />
+            <Bid />
             <Timer  />
         </Content>
     </>
