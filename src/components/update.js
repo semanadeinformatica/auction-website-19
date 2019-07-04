@@ -1,12 +1,19 @@
 import React from "react";
+import { PropTypes } from "prop-types";
 
-export default () => (
+const LastUpdate = ({date}) => (
     <section id="update-section">
         <h2 className="title">
 			Last update
         </h2>
         <p id="end-date">
-            3/07/19 at 12:45
+            {date}
         </p>
     </section>
 );
+
+LastUpdate.propTypes = {
+    date: PropTypes.any.isRequired
+};
+
+export default LastUpdate;

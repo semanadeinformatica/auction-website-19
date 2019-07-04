@@ -1,27 +1,29 @@
 import React from "react";
+import { PropTypes } from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGavel } from '@fortawesome/free-solid-svg-icons';
 
-export default () => (
+const Bid = ({data}) => (
     <section id="bid-section">
         <h2 className="title">
 			Current highest bid
         </h2>
         <p id="bid-value">
-			2150€
+            {data.value}
+            €
         </p>
         <p className="bid-info">
          Company ID: 
             {' '}
             <strong>
-               2
+                {data.companyId}
             </strong>
         </p>
         <p className="bid-info">
          Bid date: 
             {' '}
             <strong>
-               12/7 at 12:24
+                {data.date}
             </strong>
         </p>
         <a
@@ -38,3 +40,9 @@ export default () => (
         </a>
     </section>
 );
+
+Bid.propTypes = {
+    data: PropTypes.any.isRequired
+};
+
+export default Bid;
