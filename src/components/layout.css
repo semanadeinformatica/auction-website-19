@@ -34,64 +34,11 @@ a {
 }
 
 #content {
-  padding: 0 2em;
+  padding: 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
-}
-
-section > h2.title {
-  color: rgba(0, 0, 0, 0.9);
-  border-bottom: 3px solid rgba(0, 0, 0, 0.9);
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#bid-value {
-  color: rgb(82, 21, 21);
-  text-align: center;
-  font-size: 1.8em;
   font-weight: bold;
-}
-
-.bid-info {
-  color: rgb(118, 121, 138);
-  margin: 0;
-  padding: .3em 0;
-  font-style: italic;
-}
-
-#bid-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0.8em 1.1em;
-  background-color: rgb(46, 184, 46);
-  color: white;
-  border-radius: 3px;
-  border: 0;
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-#bid-button:hover {
-  background-color: rgb(33, 128, 33);
-}
-
-#bid-button > span {
-  margin-left: 1.5em;
-  font-weight: bold;
-}
-
-#end-date {
-  color: rgb(82, 21, 21);
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 2em;
 }
