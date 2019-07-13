@@ -8,6 +8,7 @@ import Content from "../components/content";
 import Timer from "../components/timer";
 import Update from "../components/update";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../components/layout.css';
 
 const Index = ({data}) => (

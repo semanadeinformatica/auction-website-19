@@ -1,49 +1,57 @@
+:root {
+  --main-dark: #252525;
+  --accent-dark: #525252;
+  --light-bg: #f7f7f7;
+}
+
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: #252525;
-  background-color: rgb(247, 247, 247);
 }
+
 body {
+  font-family: 'Montserrat', 'sans-serif';
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--main-dark);
+  background-color: var(--light-bg);
 }
 
 a {
   text-decoration: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #header-wrapper {
-	background-color: #252525;
+	background-color: var(--main-dark);
   color: white;
-  padding: 0.2em;
+  padding: 1em;
 }
 
 #header-wrapper h2 {
-  text-align: center;
+  font-weight: bold;
   font-size: 2em;
 }
 
 #title-wrapper h1 {
-  text-align: center;
   font-size: 2.3em;
   text-transform: uppercase;
-  padding: 1.2em;
+  padding: 1.4em;
+  font-weight: bold;
 }
 
-#content {
-  padding: 0 2em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#bid-section {
   background-color: white;
+  padding: 2em 2em 0 2em;
 }
 
-section > h2.title {
-  color: rgba(0, 0, 0, 0.9);
-  border-bottom: 3px solid rgba(0, 0, 0, 0.9);
+.title {
+  font-weight: bold;
+  color: var(--accent-dark);
 }
 
 section {
@@ -54,39 +62,46 @@ section {
 }
 
 #bid-value {
-  color: rgb(82, 21, 21);
-  text-align: center;
-  font-size: 1.8em;
+  font-size: 4.2em;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
-.bid-info {
-  color: rgb(118, 121, 138);
-  margin: 0;
-  padding: .3em 0;
-  font-style: italic;
+#bid-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
 }
 
 #bid-button {
+  position: absolute;
+  top: 20px;
+  right: calc(50% - 54px);
+}
+
+#bid-button a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0.8em 1.1em;
-  background-color: rgb(46, 184, 46);
-  color: white;
-  border-radius: 3px;
-  border: 0;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  padding: .375rem 1.5rem;
 }
 
-#bid-button:hover {
-  background-color: rgb(33, 128, 33);
-}
-
-#bid-button > span {
-  margin-left: 1.5em;
+#bid-button span {
   font-weight: bold;
+  margin-left: 0.4em;
+  font-size: 1.4em;
+}
+
+#bid-info p {
+  margin: 0;
+  text-align: right;
+  color: var(--accent-dark);
+}
+
+#date-section {
+  margin-top: 4em;
 }
 
 #end-date {

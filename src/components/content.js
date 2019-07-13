@@ -1,14 +1,15 @@
 import React from "react";
+import { Container } from "reactstrap";
 import PropTypes from 'prop-types';
 
 const Content = ({children}) => (
-    <div id="content">
+    <Container fluid>
         {children}
-    </div>
+    </Container>
 );
 
 Content.propTypes = {
-    children: PropTypes.element.isRequired
+    children: PropTypes.any.isRequired
 };
 
 export default Content;
