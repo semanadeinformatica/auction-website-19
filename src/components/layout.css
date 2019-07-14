@@ -22,10 +22,6 @@ a {
   text-decoration: none;
 }
 
-.text-center {
-  text-align: center;
-}
-
 #header-wrapper {
 	background-color: var(--main-dark);
   color: white;
@@ -42,6 +38,12 @@ a {
   text-transform: uppercase;
   padding: 1.4em;
   font-weight: bold;
+  padding-bottom: 0em;
+}
+
+#title-wrapper p {
+  margin-bottom: 3em;
+  color: var(--accent-dark);
 }
 
 #bid-section {
@@ -52,13 +54,6 @@ a {
 .title {
   font-weight: bold;
   color: var(--accent-dark);
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #bid-value {
@@ -102,4 +97,9 @@ section {
 
 #info {
   margin-top: 4em;
+}
+
+#disclaimer {
+  margin-top: 3em;
+  color: var(--accent-dark);
 }

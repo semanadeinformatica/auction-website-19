@@ -15,6 +15,17 @@ export default () => (
                 <h1 className="text-center">
                     Main Sponsor Auction
                 </h1>
+                <p className="text-center">
+                REGULATION: 
+                    {' '} 
+                    <a href="cenas">
+                    PT
+                    </a>
+                    {' | '}
+                    <a href="cenas">
+                    EN
+                    </a>
+                </p>
             </Col>
         </Row>
     </Container>
