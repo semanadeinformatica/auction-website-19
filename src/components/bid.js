@@ -46,7 +46,7 @@ const Bid = ({data}) => (
                             Bid date:
                         </strong>
                         {' '}
-                        {data.date}
+                        {new Date(data.date).toUTCString()}
                     </p>
                 </div>
             </div>
