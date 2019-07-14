@@ -46,7 +46,7 @@ a {
 
 #bid-section {
   background-color: white;
-  padding: 2em 2em 0 2em;
+  padding: 1em 2em;
 }
 
 .title {
@@ -77,15 +77,15 @@ section {
 
 #bid-button {
   position: absolute;
-  top: 20px;
-  right: calc(50% - 54px);
+  top: 37px;
+  right: calc(50% - 70px);
 }
 
 #bid-button a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: .375rem 1.5rem;
+  padding: .5rem 2rem;
 }
 
 #bid-button span {
@@ -100,13 +100,6 @@ section {
   color: var(--accent-dark);
 }
 
-#date-section {
+#info {
   margin-top: 4em;
-}
-
-#end-date {
-  color: rgb(82, 21, 21);
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: bold;
 }

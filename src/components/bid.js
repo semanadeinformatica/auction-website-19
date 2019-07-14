@@ -7,9 +7,9 @@ import { faDonate } from '@fortawesome/free-solid-svg-icons';
 const Bid = ({data}) => (
     <Row id="bid-section">
         <Col>
-            <h2 className="title text-center">
+            <h3 className="title text-center">
 			Current highest bid
-            </h2>
+            </h3>
             <p
                 id="bid-value"
                 className="text-center"
