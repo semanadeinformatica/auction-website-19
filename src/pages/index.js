@@ -13,7 +13,12 @@ import '../components/layout.css';
 
 const Index = ({data}) => (
     <>
-        <Helmet title="SINF Auction" />
+        <Helmet title="SINF Auction">
+            <link
+                href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+                rel="stylesheet"
+            />
+        </Helmet>
         <Header />
         <Content>
             <Bid data={data.allDataJson.edges[0].node.bid} />
