@@ -12,7 +12,7 @@ const Info = ({end, update}) => (
 					End date
                     </h3>
                     <p className="text-center">
-                        {end}
+                        {`${end} WEST`}
                     </p>
                 </Col>
                 <Col>
@@ -20,7 +20,7 @@ const Info = ({end, update}) => (
 					Last update
                     </h3>
                     <p className="text-center">
-                        {update}
+                        {`${update} WEST`}
                     </p>
                 </Col>
             </Row>

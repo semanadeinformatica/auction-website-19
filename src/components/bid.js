@@ -22,7 +22,7 @@ const Bid = ({data}) => (
                     <a
                         className="btn btn-success"
                         color="success"
-                        href="mailto:externas@sinf.pt?subject=[AUCTION] New Bid"
+                        href="mailto:externas@sinf.pt?subject=Semana%20de%20Informática%20-%20Main%20Sponsor"
                     > 
                         <FontAwesomeIcon
                             icon={faDonate}
@@ -46,7 +46,7 @@ const Bid = ({data}) => (
                             Bid date:
                         </strong>
                         {' '}
-                        {data.date}
+                        {`${data.date} WEST`}
                     </p>
                 </div>
             </div>

@@ -18,11 +18,17 @@ export default () => (
                 <p className="text-center">
                 REGULATION: 
                     {' '} 
-                    <a href="cenas">
+                    <a
+                        href="docs/regulation-pt.pdf"
+                        target="_blank"
+                    >
                     PT
                     </a>
                     {' | '}
-                    <a href="cenas">
+                    <a
+                        href="docs/regulation-en.pdf"
+                        target="_blank"
+                    >
                     EN
                     </a>
                 </p>
