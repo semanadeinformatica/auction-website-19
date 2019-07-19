@@ -12,7 +12,7 @@ const Info = ({end, update}) => (
 					End date
                     </h3>
                     <p className="text-center">
-                        {new Date(end).toUTCString()}
+                        {end}
                     </p>
                 </Col>
                 <Col>
@@ -20,7 +20,7 @@ const Info = ({end, update}) => (
 					Last update
                     </h3>
                     <p className="text-center">
-                        {new Date(update).toUTCString()}
+                        {update}
                     </p>
                 </Col>
             </Row>
