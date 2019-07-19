@@ -66,21 +66,13 @@ a {
 #bid-bottom {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  position: relative;
 }
+
+
 
 #bid-button {
-  position: absolute;
-  top: 37px;
-  right: calc(50% - 70px);
-}
-
-#bid-button a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: .5rem 2rem;
+  margin-top: -25px;
 }
 
 #bid-button span {
@@ -91,7 +83,6 @@ a {
 
 #bid-info p {
   margin: 0;
-  text-align: right;
   color: var(--accent-dark);
 }
 

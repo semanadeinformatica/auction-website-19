@@ -7,7 +7,10 @@ const Info = ({end, update}) => (
     <>
         <Container id="info">
             <Row>
-                <Col>
+                <Col
+                    xs="12"
+                    md="6"
+                >
                     <h3 className="title text-center">
 					End date
                     </h3>
@@ -15,7 +18,10 @@ const Info = ({end, update}) => (
                         {`${end} WEST`}
                     </p>
                 </Col>
-                <Col>
+                <Col
+                    xs="12"
+                    md="6"
+                >
                     <h3 className="title text-center">
 					Last update
                     </h3>
