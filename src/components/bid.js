@@ -15,8 +15,7 @@ const Bid = ({data}) => (
                     id="bid-value"
                     className="text-center"
                 >
-                    {data.value}
-            €
+                    {data.value? `${data.value} €`: 'N/A'}
                 </p>
                 <div
                     id="bid-bottom"
@@ -28,14 +27,14 @@ const Bid = ({data}) => (
                             Company ID:
                             </strong> 
                             {' '}
-                            {data.companyId}
+                            {data.companyId? data.companyId : 'N/A'}
                         </p>
                         <p className="text-center text-md-right">
                             <strong>
                             Bid date:
                             </strong>
                             {' '}
-                            {`${data.date} WEST`}
+                            {data.date? `${data.date} WEST` : 'N/A'}
                         </p>
                     </div>
                 </div>
